@@ -10,6 +10,9 @@ export const settings = {
     defaultText: 'Search...',
     icon: 'search',
   },
+  header: {
+    headerIcon: 'dog',
+  },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
 };
@@ -17,6 +20,22 @@ export const settings = {
 export const pageContents = {
   title: 'My first React app',
   subtitle: 'A simple to-do app, with lists, columns and cards',
+};
+
+export const infoContents = {
+  title: 'Jestem Marcin a to moja pierwsza reduxowo-radiowa strona',
+  image: 'https://images.musement.com/cover/0001/52/camp-nou-barcelona-jpg_header-51925.jpeg?w=1200&h=630&q=95&fit=crop',
+  description:'Oto Camp Nou. Będzie ono wkrótce rozbudowywane',
+};
+
+export const FAQContents = {
+  title: 'A oto odpowiedzi na najszęściej zadawane przez Was pytania',
+  questionOne: 'Jaka jest Twoja ulubiona drużyna??',
+  questionTwo: 'Czy lubisz programować??',
+  subtitle: 'Questions & Answers',
+  image: 'https://media.istockphoto.com/illustrations/question-answer-bubble-icon-special-blue-banner-background-illustration-id1017160930?k=6&m=1017160930&s=612x612&w=0&h=EEAllFzyvaPBqqF60kpm43fecC1JRo6bPhfEvX_WHKM=',
+  answerOne:'Oczywiście jest to FC Barcelona',
+  answerTwo:'Tak, ale uważam, że jest to trudna sztuka:)',
 };
 
 export const listData = {
