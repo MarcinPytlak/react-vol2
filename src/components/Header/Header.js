@@ -5,6 +5,7 @@ import Container from '../Container/Container';
 import Icon from '../Icon/Icon';
 import {settings} from '../../data/dataStore';
 import PropTypes from 'prop-types';
+import Search from '../Search/SearchContainer';
 
 class Header extends React.Component {
     static propTypes = {
@@ -21,6 +22,7 @@ class Header extends React.Component {
         <header className={styles.component}>
           <Container>
             <div className={styles.wrapper}>
+              <Search />
               <Link className={styles.logo}
                 to={'/'}>
                 <Icon name={icon}/>
